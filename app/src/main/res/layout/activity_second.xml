@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Botão "Inicio" à esquerda e centralizado verticalmente -->
+    <Button
+        android:theme="@style/Theme.AppCompat"
+        android:id="@+id/buttonInicio"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Inicio"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="#4CAF50"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp" />
+
+    <!-- Botão "Final" à direita e centralizado verticalmente -->
+    <Button
+        android:theme="@style/Theme.AppCompat"
+        android:id="@+id/buttonFinal"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Final"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="#F44336"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:theme="@style/Theme.AppCompat"
+        android:id="@+id/buttonVoltar"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="Voltar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="#0A35F2"
+        android:layout_centerVertical="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp" />
+</RelativeLayout>
